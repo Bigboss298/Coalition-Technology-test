@@ -1,0 +1,364 @@
+body {
+     background-image: url(./Images/white-background.jpeg);
+     overflow-x: hidden;
+}
+
+.first-section {
+     height: 80vh;
+     display: block;
+     background-image: url(./Images/iced-mountain.jpeg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center top;
+
+}
+
+.navbar {
+     justify-content: space-between;
+
+}
+.nav-brand{
+     margin-left: 15%;
+}
+.nav-items {
+     display: flex;
+     justify-content: space-around;
+     gap: 15px;
+     margin-right: 15%;
+}
+
+.first-section .nav-item {
+     display: flex;
+     flex-direction: column;
+}
+
+.first-section .nav-item a {
+     text-decoration: none;
+     color: #ffffff;
+     font-size: 11px;
+}
+
+.first-section .nav-item img {
+     height: 2px;
+}
+
+.big-name {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.big-name img {
+     width: 200px;
+}
+
+.second-section .nav-items {
+     margin-right: 10%;
+}
+
+.second-section .nav-item {
+     display: flex;
+     flex-direction: column;
+}
+
+.second-section .nav-item a {
+     text-decoration: none;
+     color: #3f506b;
+     font-size: 11px;
+     font-weight: bold;
+}
+
+.second-section .nav-item img {
+     height: 2px;
+}
+
+.navbar-brand {
+     display: flex;
+     align-items: center;
+}
+
+.third-section {
+     position: relative;
+     height: 100vh;
+     background-image: url(./Images/black-mountain.jpeg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center top;
+}
+
+.third-section h1 {
+     font-size: 100px;
+     color: #798183;
+     position: relative;
+}
+
+.h1-patch {
+     position: relative;
+     display: flex;
+     align-items: first baseline;
+     padding-left: 20px;
+}
+
+.square {
+     width: 20px;
+     height: 20px;
+     background-color: #798183;
+     margin-right: 10px;
+}
+
+.history {
+     position: absolute;
+     top: 35%;
+     left: 19%;
+     margin: 0;
+     font-weight: bold;
+     font-size: 28px;
+     color: #5c6170;
+
+}
+
+.third-section p {
+     width: 70vw;
+     height: 50vh;
+     padding-left: 40px;
+}
+.third-p{
+     font-size: 11px;
+}
+.carousel {
+     position: absolute;
+     background-color: #424d6ab0;
+     width: 100vw;
+     height: 20vh;
+     bottom: 0;
+}
+.inner{
+     display: flex;
+     width: 100vw;
+     overflow-y: scroll;
+     gap: 20px;
+}
+.inner img{
+     height: 20vh;
+}
+
+.inner::-webkit-scrollbar{
+     width: 0.5em;
+}
+
+.fourth-section {
+     height: 20vh;
+}
+
+.fourth-section h1 {
+     font-size: 100px;
+     color: #798183;
+     position: relative;
+}
+
+.fourth-section p {
+     padding-left: 20px;
+}
+
+.climb {
+     position: absolute;
+     top: 35%;
+     left: 28%;
+     margin: 0;
+     font-weight: bold;
+     font-size: 28px;
+     color: #424d6a;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.fourth-p {
+     font-size: 11px;
+     margin-top: -7.5%;
+}
+
+.fifth-section {
+     background-color: #424d6a;
+     height: 4vh;
+     width: 100vw;
+}
+
+.mountains p:nth-child(1) {
+     background-color: #a9b1b3;
+     color: #424d6a;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top:8px;
+     padding-bottom: 8px;
+}
+
+.mountains{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     margin-left: 20%;
+     font-weight: bold;
+     color: #768184c4;
+     font-size: 11px;
+}
+.sixth-section {
+     position: relative;
+     background-image: url(./Images/bird-mountain.jpeg);
+     width: 100vw;
+     height: 60vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+
+.schedule {
+     background-color: rgba(255, 255, 255, 0.733);
+     width: 60vw;
+     height: 25vh;
+     position: absolute;
+     top: 10%;
+     left: 10%;
+     padding: 20px;
+}
+.schedule h4{
+     font-weight: bolder;
+     color: #424d6a;
+}
+.sixth-p{
+     font-size: 12px;
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: -15px;
+}
+.sixth-p-extra{
+     margin-top: 15px;
+}
+
+.first-div {
+     margin-bottom: -10px;
+}
+
+.seventh-section {
+     background-image: url(./Images/purple-background.jpeg);
+     width: 100vw;
+     height: 10vh;
+     padding-left: 10px;
+}
+
+.los {
+     font-size: 1.5em;
+     line-height: 20px;
+     color: #6d737eb4;
+}
+
+.log {
+     height: 40px;
+}
+
+.last {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+}
+
+.last-text {
+     font-size: 10px;
+     font-weight: bolder;
+     color: #697999;
+     font-style: italic;
+}
+
+@media only screen and (min-width: 600px) {
+     .history {
+          margin-left: -6.5%;
+
+     }
+     .fourth-section{
+          height: 25vh;
+     }
+     .fourth-p{
+          /* margin-top: -17%; */
+          margin-left: 35%;
+     }
+     .climb {
+          margin-left: -9%;
+     }
+     .schedule {
+          width: 60vw;
+          height: 32vh;
+     }
+}
+
+@media only screen and (min-width: 768px) {
+     .first-section {
+          height: 90vh;
+     }
+     .big-name img {
+          width: 350px;
+          margin-left: 6%;
+     }
+
+     .second-section .nav-items {
+          width: 20vw;
+     }
+
+     .h1-patch {
+          display: flex;
+          align-items: first baseline;
+          margin-left: 19%;
+     }
+
+     .history {
+          margin-left: -11.5%;
+
+     }
+
+     .third-p{
+          font-size: 10px;
+          margin-left: 21%;
+          margin-top: -2%;
+     }
+
+     .carousel {
+          height: 30vh;
+     }
+     .inner{
+          display: flex;
+          justify-content: center;
+          margin-top: 25px;
+          margin-bottom: 20px;
+          align-items: center;
+     }
+     .inner img{
+          height: 20vh;
+     }
+
+     .climb {
+          margin-left: -17%;
+     }
+
+     .fourth-p {
+          margin-left: 37%;
+     }
+     .sixth-section {
+          height: 80vh;
+     }
+     
+     .schedule {
+          width: 25vw;
+          height: 35vh;
+          top: 20%;
+          left: 22%;
+     }
+     .sixth-p{
+          font-size: 12px;
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: -15px;
+     }
+     .sixth-p-extra{
+          margin-top: 15px;
+     }
+     .last-text {
+          font-size: 13px;
+     }
+}
